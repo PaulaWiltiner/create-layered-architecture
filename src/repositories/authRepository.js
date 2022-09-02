@@ -1,6 +1,6 @@
 // responsible for communicating with the database
 
-import { connection } from "../database/postgres.js";
+import { connection } from "../config/postgres.js";
 
 export async function getSession(token) {
   const {
